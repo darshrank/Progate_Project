@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeManagement</title>
+    <link rel="stylesheet" href="home_2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <a href="home.html" class="Home">Home</a>
+        <a href="learn.html" class="Learn">Learn</a>
+        <a href="activities.html" class="Activities">Activities</a>
+    </header>
+    <div class="top-wrapper">
+        <div class="container">
+            <h1>Learn to make the best of your time.</h1>
+            <p>This period of quarantine gives a lot of time in our hands. Now instead of wasting this time we can use it to get started on our careers.</p>
+            <p>This website provides you some topics of productive learning which you can include in your to do list. Also you may get bored while constantly learning stuff so you may want to refresh your mind a little bit. We have also provided some suggestions for the activities which can be done to refresh your mind.</p>
+            <p>We have provide you with 2 sections of suggestions: </p>
+            <ul>
+              <li>Learn</li>
+              <li>Activities</li>
+            </ul>
+            <p>We have also provided you with a to-do list which you can use to manage your <span>QuaranTime</span>.</p>
+        </div>
+    </div>
+
+    <div class="table">
+        <p>Your personalized to-do list.</p>
+        <button class="btn btn-success" value="Add Row" onclick="addRow('dataTable')">Add Row</button>
+        <button class="btn btn-danger" value="Delete Row" onclick="deleteRow('dataTable')">Delete Row</button>
+        <table id="dataTable">
+            <tr>
+                <td class="column1">TimeSpan</td>
+                <td class="column2">Task</td>
+                <td class="column3">Status</td>
+            </tr>
+            <tr>
+                <td class="column1"><input type="text" placeholder="timespan"></td>
+                <td class="column2"><input type="text" placeholder="task"></td>
+                <td class="column3"><input type="checkbox"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="home_3.js"></script>
+</body>
+</html>
