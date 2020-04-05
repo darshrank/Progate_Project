@@ -1,0 +1,148 @@
+body{
+  background-color: lightblue;
+}
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position:fixed;
+    top:0;
+    z-index:10;
+  }
+
+  header a {
+      float: left;
+      transition: all 0.5s;
+      line-height: 65px;
+      padding: 0 25px;
+      color: white;
+      display: block;
+  }
+
+  header a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+  }
+h1{
+  font-family: Georgia;
+  text-align:center;
+  font-size:100px;
+  color:#2F4F4F;
+}
+
+.top span{
+  border:5px solid black;
+  background-color: #FFA07A;
+}
+.top{
+  padding-top:80px;
+  background-image: url("https://theredpen.in/wp-content/uploads/2014/05/1238-960x600.png");
+  background-size: cover;
+  margin:0 10px;
+}
+.top p{
+  font-family: Comic Sans MS;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+  font-size:25px;
+  padding-bottom: 100px;
+  color:#800000;
+}
+.movies{
+  margin:0 10px;
+  background-image: url("https://i.pinimg.com/originals/0c/1b/54/0c1b541757e16d7c32736c0ec00d416f.jpg");
+  background-size:cover;
+  width:auto;
+
+}
+
+.movies img{
+  display:flex;
+  margin:0 auto;
+  height:500px;
+  width:500px;
+  flex:wrap;
+  padding: 20px 0;
+}
+
+h2{
+  font-size: 50px;
+  color:cornsilk;
+  text-align:center;
+  font-family:"Lewisham";
+}
+
+h3{
+  font-family:"Lucida Grande";
+}
+.movies p{
+  font-family: cursive;
+  color:plum;
+  font-size:20px;
+
+}
+
+.movies li{
+  color:mistyrose;
+}
+
+.movies strong{
+  padding:20px 0;
+}
+
+.tv-series{
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-film-and-television-festival-auditorium-shows-airport-board-poster-image_218832.jpg");
+  background-size:cover;
+  width:auto;
+  margin:0 10px;
+}
+
+.tv-series li{
+  color:navajowhite;
+}
+.tv-series p{
+  font-family: cursive;
+  color:goldenrod;
+  font-size:20px;
+}
+
+.tv-series img{
+  display:flex;
+  height:500px;
+  width:500px;
+  margin:0 auto;
+  flex:wrap;
+  padding: 20px 0;
+
+}
+
+.games{
+  background-image: url("https://images.squarespace-cdn.com/content/v1/548481bde4b091ba6b1ad0b0/1543855916496-0BTW3SDI4L4B8AF9PY23/ke17ZwdGBToddI8pDm48kPLerjwc9T00S19UIx4D7DV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWQaL5Zc965r8V2AH38PHUO8HP8IE1QJFP1I8jNvddiftNpR-oeFwj2Ae_lbqFbpxA/family-games-night.jpg");
+  background-size:cover;
+  width:auto;
+  margin:0 10px;
+}
+
+.games p{
+  font-family: cursive;
+  color:#000000;
+  font-size: 20px;
+}
+
+.games img{
+  display:flex;
+  height:500px;
+  width:500px;
+  margin: 0 auto;
+  flex:wrap;
+  padding: 20px 0;
+}
+
+.games li{
+  font-size:;
+  color:#4B0082;
+}
+span{
+  padding-bottom:20px;
+}
