@@ -1,3 +1,5 @@
+Website: https://darshrank.github.io/Progate_Project/
+
 1. QuaranTime Management
 2. Tech stack used: html,css,bootstrap,javascript
 3. It is a website to spend your time in a productive manner. In this quarantine time many activities as well as productive learning can be    done. This website also provides a to-do list.
